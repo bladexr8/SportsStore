@@ -198,6 +198,12 @@
     <Content Include="scripts\jquery-2.1.0.min.js" />
     <Content Include="scripts\knockout-3.1.0.debug.js" />
     <Content Include="scripts\knockout-3.1.0.js" />
+    <None Include="scripts\_references.js" />
+    <Content Include="scripts\storeAjax.js" />
+    <Content Include="scripts\storeCommonController.js" />
+    <Content Include="scripts\storeModel.js" />
+    <Content Include="scripts\storeOrdersController.js" />
+    <Content Include="scripts\storeProductsController.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
@@ -205,6 +211,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\PrepController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
@@ -235,6 +242,7 @@
     </Content>
     <Content Include="scripts\jquery-2.1.0.min.map" />
     <Content Include="Views\Prep\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
