@@ -6,7 +6,7 @@ using System.Web;
 
 namespace SportsStore.Models
 {
-    public class ProductDbInitializer : DropCreateDatabaseAlways<ProductDbContext>
+    public class ProductDbInitializer : CreateDatabaseIfNotExists<ProductDbContext>
     {
         /*
          * DropCreateDatabaseAlways<T> The database is dropped and 
