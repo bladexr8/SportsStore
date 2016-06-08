@@ -9,7 +9,11 @@
 };
 
 $(document).ready(function () {
+    console.log("[storeModel.js] - Applying Bindings...");
     ko.applyBindings();
+    console.log("[storeModel.js] - Applied Bindings...");
+    console.log(model);
+    console.log("[storeModel.js] - Setting up Default Callbacks...");
     setDefaultCallbacks(function (data) {
         if (data) {
             console.log("---Begin Success---");
